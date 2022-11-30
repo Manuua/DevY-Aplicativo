@@ -516,6 +516,7 @@ img {
 .myCarousel img {
   width: 100%;
   cursor: pointer;
+  justify-content: center;
 }
 
 /* Next & previous buttons */
@@ -754,3 +755,5 @@ img {
     font-size: 1.25rem;
   }
 }
+
+
