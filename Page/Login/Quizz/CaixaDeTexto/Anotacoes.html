@@ -5,14 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caixa de anotacoes</title>
+  <link rel="stylesheet" href="Anotacoes.css">
 </head>
 <body>
-    <form>
-        <div>
+<div> 
+  <h1>Anotações</h1>
+    <form class="container">
+      <div> 
+        <div class="title">
           <label for="dia">Data da anotação:</label>
           <input type="date" id="dia" name="dia">
         </div>
+        <textarea name="anotacoes" cols="50" >Digite aqui suas anotações de estudo</textarea>
       </form>
-    <textarea name="anotacoes" cols="50" >Digite aqui suas anotações de estudo</textarea>
+    </div>
+  </div>
 </body>
 </html>
